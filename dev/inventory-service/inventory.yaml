@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: inventory-service
-          image: IMAGE_NAME:TAG
+          image: us-east1-docker.pkg.dev/raviteja-demo/jenkins-demo/inventory-service:8
           ports:
             - containerPort: 8081
 ---

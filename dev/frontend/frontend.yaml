@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: IMAGE_NAME:TAG
+          image: us-east1-docker.pkg.dev/raviteja-demo/jenkins-demo/frontend:8
           ports:
             - containerPort: 80
 ---
