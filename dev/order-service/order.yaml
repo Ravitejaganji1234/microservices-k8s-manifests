@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: us-east1-docker.pkg.dev/raviteja-demo/jenkins-demo/order-service:9
+          image: us-east1-docker.pkg.dev/raviteja-demo/jenkins-demo/order-service:10
           ports:
             - containerPort: 8082
 ---
